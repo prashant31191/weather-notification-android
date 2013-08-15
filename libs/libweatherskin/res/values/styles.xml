@@ -1,0 +1,59 @@
+<resources>
+
+    <style name="Theme.Dialog" parent="@android:style/Theme.Dialog">
+    </style>
+
+    <style name="Weather">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Weather.CurrentTemp" parent="Weather">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Weather.Forecast" parent="Weather">
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="Weather.Condition" parent="Weather.Forecast">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="WeatherInfo">
+        <!--parent="@android:style/TextAppearance">-->
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="WeatherInfo.Location">
+        <!--<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>-->
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="WeatherInfo.UpdateTime">
+        <!--<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>-->
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="WeatherInfo.Condition">
+        <!--<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>-->
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="WeatherInfo.ConditionDetails">
+        <!--<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>-->
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="WeatherInfo.CurrentTemp">
+        <!--<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>-->
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="WeatherInfo.AltTemp" parent="WeatherInfo">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+</resources>

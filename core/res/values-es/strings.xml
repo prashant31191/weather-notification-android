@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+#   Android Weather Notification.
+#   Copyright (C) 2012  Denis Nelubin, Adrian Prado
+#   
+#   This program is free software; you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation; either version 2 of the License, or
+#   (at your option) any later version.
+#   
+#   This program is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#   
+#   You should have received a copy of the GNU General Public License
+#   along with this program; if not, write to the Free Software
+#   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+#   
+#   http://gelin.ru
+#   mailto:den@gelin.ru
+-->
+
+<resources>
+    <string name="app_name">Notificación del clima</string>
+    <string name="weather">Clima</string>
+    <string name="notification">Notificación</string>
+    <string name="enable_notification">Habilitar notificación</string>
+    <string name="refresh_interval">Intervalo de actualización</string>
+    <string name="refresh_15m">Cada quince minutos</string>
+    <string name="refresh_30m">Cada treinta minutos</string>
+    <string name="refresh_1h">Cada hora</string>
+    <string name="refresh_2h">Cada dos horas</string>
+    <string name="refresh_3h">Cada tres horas</string>
+    <string name="refresh_4h">Cada cuatro horas</string>
+    <string name="refresh_6h">Cada seis horas</string>
+    <string name="refresh_12h">Cada doce horas</string>
+    <string name="refresh_1d">Por día</string>
+    <string name="location">Lugar</string>
+    <string name="auto_location">Detección automática</string>
+    <string name="auto_location_summary_on">Detectar lugar automáticamente</string>
+    <string name="auto_location_summary_off">Establecer lugar manualmente</string>
+    <string name="manual_location">Lugar</string>
+    <string name="weather_update_empty">El clima para \"%s\" es desconocido</string>
+    <string name="weather_update_failed">Actualización de clima fallo: %s</string>
+    <string name="weather_update_no_network">Actualización de clima fallo: no hay conexión a la red</string>
+    <string name="weather_update_unknown_location">Actualización de clima fallo: lugar desconocido</string>
+    <string name="skin">Skin</string>
+    <string name="skins">Skins</string>
+    <string name="skins_preferences">Preferencias de skin</string>
+    <string name="skins_install">Instalar skins</string>
+    <string name="skins_install_notice">Deberías de instalar skins para un uso mejor. Haz clic en \"Instalar skins\" al final de esta pantalla.</string>
+    <string name="skins_install_notice_no_market">Deberías de instalar skins para un uso mejor. Buscar \"Weather Notification Skin\" en Android market para instalarlas.</string>
+    <string name="builtin_skin">Skin predefinida</string>
+    <string name="builtin_skin_preferences">Preferencias de skin predefinida</string>
+    <string name="start_update_service_permission">iniciar servicio de actualización de clima</string>
+    <string name="start_update_service_permission_description">permite a la aplicación iniciar el servicio de actualización para recibir nuevos datos del clima.</string>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+#   Android Weather Notification.
+#   Copyright (C) 2010  Denis Nelubin aka Gelin
+#   
+#   This program is free software; you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation; either version 2 of the License, or
+#   (at your option) any later version.
+#   
+#   This program is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#   
+#   You should have received a copy of the GNU General Public License
+#   along with this program; if not, write to the Free Software
+#   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+#   
+#   http://gelin.ru
+#   mailto:den@gelin.ru
+-->
+
+<resources>
+    <string name="weather">Погода</string>
+    <string name="notification_icon_style">Цвет текста значка</string>
+    <string name="notification_text_style">Цвет текста уведомления</string>
+    <string name="notification_style_black_text">Черный текст</string>
+    <string name="notification_style_white_text">Белый текст</string>
+    <string name="temp_unit">Единица изменения температуры</string>
+    <string name="celsius">Градусы Цельсия</string>
+    <string name="fahrenheit">Градусы Фаренгейта</string>
+    <string name="celsius_and_fahrenheit">Градусы Цельсия и Фаренгейта С&#x00B0;(F&#x00B0;)</string>
+    <string name="fahrenheit_and_celsius">Градусы Фаренгейта и Цельсия F&#x00B0;(C&#x00B0;)</string>
+    <string name="update_time_format" formatted="false">%ta, %&lt;tY-%&lt;tm-%&lt;td %&lt;tH:%&lt;tM</string>
+    <string name="update_date_format" formatted="false">%ta, %&lt;tY-%&lt;tm-%&lt;td</string>
+    <string name="unknown_weather">Погода неизвестна</string>
+    <string name="forecast_day_format">%ta</string>
+    <string name="notification_ticker" formatted="false">%s %s</string>
+    <string name="forecast_text" formatted="false">%ta: %s/%s</string>
+    <string name="update_time_short" formatted="false">{0,choice,0#&lt;15м|15#&lt;30м|30#&lt;1ч|60#&lt;2ч|120#&lt;3ч|180#&lt;4ч|240#&lt;5ч|300#&lt;6ч|360#&lt;12ч|720#&lt;1д|1440#&lt;2д|2880#>2д}</string>
+    <string name="wind_dir_n">С</string>
+    <string name="wind_dir_nne">ССВ</string>
+    <string name="wind_dir_ne">СВ</string>
+    <string name="wind_dir_ene">ВСВ</string>
+    <string name="wind_dir_e">В</string>
+    <string name="wind_dir_ese">ВЮВ</string>
+    <string name="wind_dir_se">ЮВ</string>
+    <string name="wind_dir_sse">ЮЮВ</string>
+    <string name="wind_dir_s">Ю</string>
+    <string name="wind_dir_ssw">ЮЮЗ</string>
+    <string name="wind_dir_sw">ЮЗ</string>
+    <string name="wind_dir_wsw">ЗЮЗ</string>
+    <string name="wind_dir_w">З</string>
+    <string name="wind_dir_wnw">ЗСЗ</string>
+    <string name="wind_dir_nw">СЗ</string>
+    <string name="wind_dir_nnw">ССЗ</string>
+    <string name="wind_speed_unit">Единица изменения скорости ветра</string>
+    <string name="wind_speed_unit_mph">миль/ч</string>
+    <string name="wind_speed_unit_mps">м/с</string>
+    <string name="wind_speed_unit_kmph">км/ч</string>
+    <string name="humidity_caption" formatted="false">Влажность: %d%%</string>
+    <string name="wind_caption" formatted="false">Ветер: %s, %d %s</string>
+
+    <string name="condition_thunderstorm_rain_light">Гроза со слабым дождем</string>
+    <string name="condition_thunderstorm_rain">Гроза с дождем</string>
+    <string name="condition_thunderstorm_rain_heavy">Гроза с сильным дождем</string>
+    <string name="condition_thunderstorm_light">Слабая гроза</string>
+    <string name="condition_thunderstorm">Гроза</string>
+    <string name="condition_thunderstorm_heavy">Сильная гроза</string>
+    <string name="condition_thunderstorm_ragged">Гроза</string> <!-- to be improved -->
+    <string name="condition_thunderstorm_drizzle_light">Гроза со слабой моросью</string> <!-- does it exist? -->
+    <string name="condition_thunderstorm_drizzle">Гроза c моросью</string> <!-- does it exist? -->
+    <string name="condition_thunderstorm_drizzle_heavy">Гроза с сильной моросью</string> <!-- does it exist? -->
+
+    <string name="condition_drizzle_light">Слабая морось</string>
+    <string name="condition_drizzle">Морось</string>
+    <string name="condition_drizzle_heavy">Сильная морось</string>
+    <string name="condition_drizzle_rain_light">Слабый моросящий дождь</string>
+    <string name="condition_drizzle_rain">Моросящий дождь</string>
+    <string name="condition_drizzle_rain_heavy">Сильный моросящий дождь</string>
+    <string name="condition_drizzle_shower">Моросящий дождь</string> <!-- to be improved --> <!-- does it exist? -->
+
+    <string name="condition_rain_light">Слабый дождь</string>
+    <string name="condition_rain">Дождь</string>
+    <string name="condition_rain_heavy">Сильный дождь</string>
+    <string name="condition_rain_very_heavy">Очень сильный дождь</string>
+    <string name="condition_rain_extreme">Экстремальный дождь</string>
+    <string name="condition_rain_freezing">Ледяной дождь</string>
+    <string name="condition_rain_shower_light">Слабый ливень</string>
+    <string name="condition_rain_shower">Ливень</string>
+    <string name="condition_rain_shower_heavy">Сильный ливень</string>
+
+    <string name="condition_snow_light">Слабый снег</string>
+    <string name="condition_snow">Снег</string>
+    <string name="condition_snow_heavy">Сильный снег</string>
+    <string name="condition_sleet">Дождь со снегом</string>
+    <string name="condition_snow_shower">Ливневый снег</string>
+
+    <string name="condition_mist">Дымка</string>
+    <string name="condition_smoke">Дым</string>
+    <string name="condition_haze">Мгла</string>
+    <string name="condition_sand_whirls">Песчаная/пылевая буря</string>
+    <string name="condition_fog">Туман</string>
+
+    <string name="condition_clouds_clear">Ясно</string>
+    <string name="condition_clouds_few">Малооблачно</string>
+    <string name="condition_clouds_scattered">Переменная облачность</string>
+    <string name="condition_clouds_broken">Облачно</string>
+    <string name="condition_clouds_overcast">Пасмурно</string>
+
+    <string name="condition_tornado">Торнадо</string>
+    <string name="condition_tropical_storm">Тропический циклон</string>
+    <string name="condition_hurricane">Ураган</string>
+    <string name="condition_cold">Мороз</string>
+    <string name="condition_hot">Жара</string>
+    <string name="condition_windy">Ветренно</string>
+    <string name="condition_hail">Град</string>
+
+</resources>
